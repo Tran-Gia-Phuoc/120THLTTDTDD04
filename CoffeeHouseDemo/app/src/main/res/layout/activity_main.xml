@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/icon_person"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_perm_identity"
+            android:layout_marginLeft="20dp"
+            />
+
+        <Button
+            android:background="@drawable/button_border"
+            android:hint="Đăng nhập"
+            android:textColorHint="#ff9800"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/icon_person"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            />
+
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_notifications_none"
+            android:layout_marginRight="20dp"
+            />
+    </RelativeLayout>
+    
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="1300dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+            <LinearLayout
+                android:background="#fff"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <GridView
+                    android:id="@+id/GV_menu"
+                    android:horizontalSpacing="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:paddingLeft="11dp"
+                    android:paddingRight="11dp"
+                    android:numColumns="3"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ưu đãi đặc biệt"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_more_horiz"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <GridView
+                            android:id="@+id/GV_Offer"
+                            android:layout_width="1100dp"
+                            android:layout_height="340dp"
+                            android:horizontalSpacing="10dp"
+                            android:numColumns="4"/>
+                    </RelativeLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cập nhật từ Nhà"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_more_horiz"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <GridView
+                            android:id="@+id/GV_Update"
+                            android:layout_width="1100dp"
+                            android:layout_height="340dp"
+                            android:horizontalSpacing="10dp"
+                            android:numColumns="4"/>
+                    </RelativeLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="#CoffeeLover"
+                    android:textColor="#000"
+                    android:textSize="22dp"
+                    android:layout_marginLeft="15dp"
+                    />
+
+                <ImageView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/ic_more_horiz"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="70dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <GridView
+                            android:id="@+id/GV_CoffeeLover"
+                            android:layout_width="1100dp"
+                            android:layout_height="340dp"
+                            android:horizontalSpacing="10dp"
+                            android:numColumns="4"/>
+                    </RelativeLayout>
+                </HorizontalScrollView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        app:itemHorizontalTranslationEnabled="true"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@drawable/bnv_selector"
+        app:itemTextColor="@drawable/bnv_selector"
+        app:itemTextAppearanceActive="@style/BNV_Active"
+        app:menu="@menu/bnv_item"
+        />
+
+</RelativeLayout>

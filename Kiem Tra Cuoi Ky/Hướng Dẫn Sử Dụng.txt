@@ -1,0 +1,33 @@
+* Màn hình chính ( Home ) :
+	- Muốn xem danh sách các địa điểm của Now, chọn 'Đà Nẵng' ( góc trên cùng bên phải )
+	- Muốn xem vị trí (Bản đồ) các địa điểm của Now, chọn '48 Cao Thắng'
+	- Để xem danh sách các sản phẩm của từng mục trong menu ( vd: danh sách sản phẩm trong Trà Sữa), chọn vào mục Trà Sữa
+		+ Bấm chuyển đổi giữa các tab để xem danh sách theo các tab đó
+		+ Chọn vào từng sản phẩm trong danh sách để xem chi tiết sản phẩm được chọn
+		+ Lướt qua phải/trái trên các ngôi sao để chọn lượng sao cần đánh giá, chọn nút 'Đánh giá' để đánh giá
+	- Tại danh sách 'Bộ sưu tập', chọn 'Xem Thêm' để xem thêm các sản phẩm khác của 'Bộ Sưu Tập'
+		+ Chọn vào từng sản phẩm trong danh sách để xem chi tiết sản phẩm được chọn
+* Màn hình 'Đã lưu' : ( click 2 lần vào mục 'Đã lưu' trong thanh ngang dưới cùng để chuyển màn hình )
+	- Xem danh sách các sản phẩm được lưu :
+		+ Bấm chuyển đổi giữa các tab để xem danh sách theo các tab đó
+		+ Chọn vào từng sản phẩm trong danh sách để xem chi tiết sản phẩm được chọn
+		+ Lướt qua phải/trái trên các ngôi sao để chọn lượng sao cần đánh giá, chọn nút 'Đánh giá' để đánh giá
+* Màn hình 'Thông báo' : ( click 2 lần vào mục 'Thông báo' trong thanh ngang dưới cùng để chuyển màn hình )
+	- Xem thông báo về tình trạng đơn hàng , các sản phẩm mới , khuyến mãi , tin tức của Now
+	- Chọn vào nút cài đặt ( hình bánh răng ) góc trên cùng bên phải, để cài đặt thông báo
+* Màn hình 'Tôi' : ( click 2 lần vào mục 'Tôi' trong thanh ngang dưới cùng để chuyển màn hình )
+	- Để đăng nhập / đăng ký , chọn nút 'ĐĂNG NHẬP / ĐĂNG KÍ' → Xuất hiện màn hình đăng nhập
+		+ Nếu chưa có tài khoản , chọn nút 'ĐĂNG KÍ'
+			• Nhập vào các khoảng trống 'Tên đăng nhập' , 'Mật khẩu của bạn' , 'Nhập lại mật khẩu của bạn' để thêm thông tin đăng kí
+			• Chọn nút 'ĐĂNG KÍ' để hoàn tất đăng kí
+			• Nếu đăng kí thành công , phía dưới màn hình sẽ hiển thị 'Đăng kí thành công'
+		+ Quay lại màn hình đăng nhập, nhập lại tài khoản vừa đăng kí hoặc đã đăng ký trước đó vào các khoảng trống 'Tên đăng nhập' , 'Mật khẩu của bạn'
+		và chọn nút 'ĐĂNG NHẬP'
+		+ Nếu ở màn hình 'Tôi' xuất hiện tên đăng nhập → đăng nhập thành công
+		+ Trong màn hình đăng nhập, có thể đăng nhập bằng số điện thoại bằng cách chọn vào nút 'ĐĂNG NHẬP VỚI SỐ ĐIỆN THOẠI'
+			• Màn hình đăng nhập bằng số điện thoại sẽ xuất hiện
+			• Nhập số điện thoại vào khoảng trống và chọn 'TIẾP TỤC' , hệ thống sẽ gửi mã vào tin nhắn về số điện thoại đã nhập 
+			• Trong màn hình nhập mã vừa xuất hiện, nhập từng số của mã vào các vị trí tương ứng và chọn 'TIẾP TỤC' → đăng nhập thành công
+	- Để đăng xuất, kéo xuống phía dưới cùng màn hình 'Tôi' , chọn nút 'ĐĂNG XUẤT'
+		+ Thông báo sẽ hiển thị để chấp nhận đăng xuất hay không. Nếu đồng ý đăng xuất chọn 'XÁC NHẬN' hoặc ngược lại chọn 'CANCEL'
+		+ Nếu tên đăng nhập không còn xuất hiện ở màn hình 'Tôi' → đăng xuất thành công
